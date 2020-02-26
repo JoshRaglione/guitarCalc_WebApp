@@ -15,10 +15,10 @@ $(function() {
             if(randomEnd == 1 && randomFret != 11) {
                 fret.innerHTML = randomFret + "st";
             }
-            if(randomEnd == 2 && randomFret != 12) {
+            else if(randomEnd == 2 && randomFret != 12) {
                 fret.innerHTML = randomFret + "nd";
             }
-            if(randomEnd == 3 && randomFret != 13) {
+            else if(randomEnd == 3 && randomFret != 13) {
                 fret.innerHTML = randomFret + "rd";
             } 
             else {

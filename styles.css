@@ -64,20 +64,36 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .correct-display {
+        font-size: 4em;
+        color: rgb(54, 214, 54);
+        background-color: rgb(0, 0, 0);
+        border: 2px solid rgb(54, 214, 54);
+        font-family: Trattatello;
+    }
+    .incorrect-display {
+        font-size: 4em;
+        color: rgb(54, 214, 54);
+        background-color: rgb(0, 0, 0);
+        border: 2px solid rgb(54, 214, 54);
+        padding-top: 5px;
+        font-family: Trattatello;
+        height: 100px;
+    }
       main {
           display: grid;
           grid-template-columns: 25% 25% 25% 25%;
           grid-template-rows: 20% 20% 20% 20% 20%;
           height: 25em;
-          margin-top: 37%;
       }
       .string {
           grid-row: 1/2;
           grid-column: 1/5;
           margin-bottom: 5%;
-          margin-left: 18%;
+          margin-left: 20%;
             font-size: 3.5em;
-          background-color: aqua;
+          font-family: Rockwell;
+          color: rgb(179, 179, 179);
       }
       .fret {
           grid-row: 2/3;
@@ -85,32 +101,37 @@
           margin-bottom: 5%;
           margin-left: 9%;
           font-size: 3.5em;
-          background-color: green;
+          font-family: Rockwell;
+          color: rgb(179, 179, 179);
+      }
+      .plus {
+          color: rgb(210, 255, 255);
       }
       .note-row-1 {
           grid-row: 3/4;
           grid-column: 1/5;
-          margin-bottom: 5%;
-          margin-left: 8%;
-          background-color: aqua;
+          margin-bottom: 7%;
+          margin-left: 10%;
       }
       .note-row-2 {
           grid-row: 4/5;
           grid-column: 1/5;
-          margin-bottom: 5%;
-          margin-left: 8%;
-          background-color: green;
+          margin-bottom: 7%;
+          margin-left: 10%;
       }
       .note-row-3 {
           grid-row: 5/6;
           grid-column: 1/5;
-          margin-bottom: 5%;
-          margin-left: 8%;
-          background-color: aqua;
+          margin-bottom: 7%;          
+          margin-left: 10%;
       }
       button {
-          height: 5.5em;
+          height: 5em;
           width: 22%;
-        background-color: white;
+          font-family: Noteworthy;
+          font-weight: bolder;
+          font-size: small;
+        background-color: rgb(255, 254, 254);
+        border-radius: 50%;
       }
 }
